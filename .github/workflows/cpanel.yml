@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/n1689361/public_html/qr-jrcnet
+- /bin/cp -r * $DEPLOYPATH
